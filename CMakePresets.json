@@ -1,0 +1,26 @@
+{
+  "version": 10,
+  "configurePresets": [
+    {
+      "name": "vs",
+      "displayName": "Visual Studio 17 2022 config",
+      "description": "build preset for Visual Studio 17 2022",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "preset_vs": true
+      },
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64"
+    },
+    {
+      "name": "make",
+      "displayName": "Unix Makefiles config",
+      "description": "build preset for Unix Makefiles",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "preset_make": true
+      },
+      "generator": "Unix Makefiles"
+    }
+  ]
+}
